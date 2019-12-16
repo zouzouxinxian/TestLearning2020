@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        /* vh和vw居中 */
+        #box { 
+            width: 50vw; 
+            height: 50vh; 
+            margin: 25vh auto; 
+            background-color: pink;
+        }
+
+    </style>
+</head>
+<body>
+    <div style="width: 600px;margin: 0 auto;">
+
+        <!-- px像素 -->
+        <h1>px</h1>
+        <div style="font-size: 16px;">16px
+            <div style="font-size: 20px;">
+                16px
+                <div style="font-size: 24px;">
+                    16px
+                    <div style="font-size: 28px;">
+                        16px
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- em字体单位 -->
+        <h1>em</h1>
+        <div style="font-size: 1.6em;">
+            <!-- 字体大小为16px*1.6 -->
+            1.6em
+            <div style="font-size: 1.6em;">
+                <!-- 字体大小为16px*1.6*1.6 -->
+                1.6em
+                <div style="font-size: 1.6em;">
+                    <!-- 字体大小为16px*1.6*1.6*1.6 -->
+                    1.6em
+                    <div style="font-size: 1.6em;">
+                        <!-- 字体大小为16px*1.6*1.6*1.6*1.6 -->
+                        1.6em
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- rem字体单位 -->
+        <h1>rem</h1>
+        <div style="font-size: 16px;">
+            <!-- 字体大小为16px -->
+            16px
+            <div style="font-size: 1.6rem;">
+                <!-- 字体大小为16px*1.6 -->
+                1.6rem
+            </div>
+        </div>
+<br>
+<br>
+<br>
+        <!-- % -->
+        <h1>%</h1>
+        <div style="font-size:160%;">
+                <!-- 字体大小为16px*1.6 -->
+                160%
+            <div style="font-size:160%;">
+                <!-- 字体大小为16px*1.6*1.6 -->
+                160%
+                <div style="font-size:160%;">
+                    <!-- 字体大小为16px*1.6*1.6*1.6 -->
+                    160%
+                    <div style="font-size:160%;">
+                        <!-- 字体大小为16px*1.6*1.6*1.6*1.6 -->
+                        160%
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>   
+    
+    <div id="box">
+
+    </div>
+</body>
+</html>
